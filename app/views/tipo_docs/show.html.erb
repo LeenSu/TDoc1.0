@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @tipo_doc.nombre %>
+</p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @tipo_doc.titulo %>
+</p>
+
+<%= link_to 'Edit', edit_tipo_doc_path(@tipo_doc) %> |
+<%= link_to 'Back', tipo_docs_path %>

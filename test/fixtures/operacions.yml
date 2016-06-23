@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  remitente: MyString
+  destinatario: MyString
+  descripcion: MyText
+  empleado_id: 1
+  tipo_oper_id: 1
+  documento_id: 1
+
+two:
+  remitente: MyString
+  destinatario: MyString
+  descripcion: MyText
+  empleado_id: 1
+  tipo_oper_id: 1
+  documento_id: 1

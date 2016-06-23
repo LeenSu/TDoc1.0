@@ -1,0 +1,27 @@
+<h1>Lista de sedes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Ciudad</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sedes.each do |sede| %>
+      <tr>
+        <td><%= sede.nombre %></td>
+        <td><%= sede.ciudad %></td>
+        <td><%= link_to 'ver', sede %></td>
+        <td><%= link_to 'Editar', edit_sede_path(sede) %></td>
+        <td><%= link_to 'Borrar', sede, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nueva Sede', new_sede_path %>

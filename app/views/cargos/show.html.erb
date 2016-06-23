@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @cargo.nombre %>
+</p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @cargo.titulo %>
+</p>
+
+<p>
+  <strong>Area:</strong>
+  <%= @cargo.area_id %>
+</p>
+
+<%= link_to 'Edit', edit_cargo_path(@cargo) %> |
+<%= link_to 'Back', cargos_path %>

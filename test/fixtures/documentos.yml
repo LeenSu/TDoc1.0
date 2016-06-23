@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  num_expediente: 1
+  asunto: MyString
+  folio: 1
+  ubic_archivo: MyString
+  rpta: false
+  firma: 1
+
+two:
+  num_expediente: 1
+  asunto: MyString
+  folio: 1
+  ubic_archivo: MyString
+  rpta: false
+  firma: 1
